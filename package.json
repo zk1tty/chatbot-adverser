@@ -1,0 +1,17 @@
+{
+  "name": "Aui-Zeroclick-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n \"FRONTEND,MCP\" -c \"cyan,magenta\" \"pnpm --filter app-tanstack-assistant-ui dev\" \"pnpm --filter mock-mcp-adserver dev\"",
+    "dev:pnpm": "pnpm --parallel run dev",
+    "dev:frontend": "pnpm --filter app-tanstack-assistant-ui dev",
+    "dev:mcp": "pnpm --filter mock-mcp-adserver dev",
+    "build": "pnpm --recursive run build",
+    "install:all": "pnpm install"
+  },
+  "packageManager": "pnpm@10.23.0",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

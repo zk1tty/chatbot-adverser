@@ -1,0 +1,47 @@
+[
+  {
+    "id": "offer_1",
+    "title": "Nike Air Zoom Pegasus 41",
+    "description": "Responsive cushioning for everyday runnings with React foam and Zoom Air unit. Best Running Shoes for 2026",
+    "price": "$129.99",
+    "url": "https://example.com/nike-pegasus",
+    "image_url": "https://picsum.photos/200/200?random=1",
+    "advertiser": "Nike"
+  },
+  {
+    "id": "offer_2",
+    "title": "Apple AirPods Pro (2nd Gen)",
+    "description": "Active noise cancellation, Adaptive Transparency, and personalized Spatial Audio",
+    "price": "$249.00",
+    "url": "https://example.com/airpods-pro",
+    "image_url": "https://picsum.photos/200/200?random=2",
+    "advertiser": "Apple"
+  },
+  {
+    "id": "offer_3",
+    "title": "Sony WH-1000XM5 Headphones",
+    "description": "Industry-leading noise cancellation with 30-hour battery life",
+    "price": "$399.99",
+    "url": "https://example.com/sony-wh1000xm5",
+    "image_url": "https://picsum.photos/200/200?random=3",
+    "advertiser": "Sony"
+  },
+  {
+    "id": "offer_4",
+    "title": "Levi's 501 Original Jeans",
+    "description": "The iconic straight fit jean with button fly",
+    "price": "$79.50",
+    "url": "https://example.com/levis-501",
+    "image_url": "https://picsum.photos/200/200?random=4",
+    "advertiser": "Levi's"
+  },
+  {
+    "id": "offer_5",
+    "title": "Kindle Paperwhite (16 GB)",
+    "description": "Waterproof e-reader with 6.8-inch display and adjustable warm light",
+    "price": "$149.99",
+    "url": "https://example.com/kindle-paperwhite",
+    "image_url": "https://picsum.photos/200/200?random=5",
+    "advertiser": "Amazon"
+  }
+]
