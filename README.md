@@ -1,4 +1,4 @@
-# Asiisntat UI + ZeroClick Ad Server
+# Assisntat UI + ZeroClick Ad Server
 
 A monorepo project with a TanStack frontend application and a mock MCP Ad Server to .
 
