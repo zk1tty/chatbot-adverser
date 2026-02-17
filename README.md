@@ -2,7 +2,24 @@
 
 A monorepo project with 
 - [TanStack](https://tanstack.com/) frontend + [Generative UI](https://www.assistant-ui.com/docs/guides/tool-ui) to render MCP tool call with [Assistant UI](https://www.assistant-ui.com)
-- mock [ZeroClick MCP Ad Server](https://developer.zeroclick.ai/docs/offers/mcp-overview) to fetch offer 
+- mock [ZeroClick MCP Ad Server](https://developer.zeroclick.ai/docs/offers/mcp-overview) to fetch offer
+
+
+[How it works](https://developer.zeroclick.ai/docs/offers/mcp-overview#how-it-works):
+```
+User: "What are the best running shoes?"
+  ↓
+Your LLM:
+  ├── Understands: User wants product recommendations
+  ├── Selects tool: get_commerce_offers
+  ├── Calls MCP: ZeroClick.get_commerce_offers("running shoes")
+  ↓
+ZeroClick:
+  └── Returns: Array of running shoe offers
+  ↓
+Your LLM:
+  └── Generates response with embedded offers
+  ``` 
 
 ![ZeroClick MCP Ad Server Demo](assets/ZeroClick-MCPAdSErver-demo.gif)
 
