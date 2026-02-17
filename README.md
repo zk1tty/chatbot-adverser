@@ -19,8 +19,19 @@ pnpm install
 
 ### Start Both Frontend and MCP Server
 
-Run both the frontend and MCP server simultaneously with color-coded logs:
+Step 1: Run frontend and MCP server simultaneously with color-coded logs:
 
+```bash
+pnpm run dev:frontend
+```
+
+Step 2: Run MCP Ad Server
+
+```bash
+pnpm run dev:mcp
+```
+
+OR, you can run both concurrently
 ```bash
 pnpm run dev
 ```
@@ -28,20 +39,6 @@ pnpm run dev
 This will start:
 - **Frontend** (cyan logs): Vite + Assistant-UI dev server on `http://localhost:3000`
 - **MCP Server** (magenta logs): Mock ZeroClicki-ish MCP Ad Server on `http://localhost:8080`
-
-### Start Services Individually
-
-Run the frontend only:
-
-```bash
-pnpm run dev:frontend
-```
-
-Run the MCP server only:
-
-```bash
-pnpm run dev:mcp
-```
 
 ## Health Check
 

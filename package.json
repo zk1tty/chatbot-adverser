@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently -n \"FRONTEND,MCP\" -c \"cyan,magenta\" \"pnpm --filter app-tanstack-assistant-ui dev\" \"pnpm --filter mock-mcp-adserver dev\"",
+    "dev": "concurrently -n \"FRONTEND,MCP\" -c \"cyan,magenta\" \"pnpm --filter app-tanstack-aui dev\" \"pnpm --filter mock-mcp-adserver dev\"",
     "dev:pnpm": "pnpm --parallel run dev",
-    "dev:frontend": "pnpm --filter app-tanstack-assistant-ui dev",
+    "dev:frontend": "pnpm --filter app-tanstack-aui dev",
     "dev:mcp": "pnpm --filter mock-mcp-adserver dev",
     "build": "pnpm --recursive run build",
     "install:all": "pnpm install"
