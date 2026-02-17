@@ -1,6 +1,8 @@
 # Assisntat UI + ZeroClick Ad Server
 
-A monorepo project with a TanStack frontend application and a mock MCP Ad Server to .
+A monorepo project with 
+- [TanStack](https://tanstack.com/) frontend + [Generative UI](https://www.assistant-ui.com/docs/guides/tool-ui) to render MCP tool call with [Assistant UI](https://www.assistant-ui.com)
+- mock [ZeroClick MCP Ad Server](https://developer.zeroclick.ai/docs/offers/mcp-overview) to fetch offer 
 
 ![ZeroClick MCP Ad Server Demo](assets/ZeroClick-MCPAdSErver-demo.gif)
 
@@ -10,25 +12,21 @@ A monorepo project with a TanStack frontend application and a mock MCP Ad Server
 - Node.js (v18 or higher)
 - pnpm (v10.23.0 or higher)
 
-## Installation
+## Get Started
 
-Install all dependencies for the monorepo:
+Step 1: Install all dependencies for the monorepo:
 
 ```bash
 pnpm install
 ```
 
-## Development
-
-### Start Both Frontend and MCP Server
-
-Step 1: Run frontend and MCP server simultaneously with color-coded logs:
+Step 2: Run frontend
 
 ```bash
 pnpm run dev:frontend
 ```
 
-Step 2: Run MCP Ad Server
+Step 3: Run MCP Ad Server
 
 ```bash
 pnpm run dev:mcp
@@ -72,7 +70,7 @@ Aui-Zeroclick/
 ├── packages/
 │   ├── frontend/    # Vite app(Tanstack) + Assistant UI
 │   └── mcp/         # MCP server
-└── package.json                       # Root package configuration
+└── package.json     # Root package configuration
 ```
 
 ## Build
