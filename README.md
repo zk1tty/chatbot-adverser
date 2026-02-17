@@ -1,6 +1,9 @@
-# Aui-Zeroclick
+# Asiisntat UI + ZeroClick Ad Server
 
-A monorepo project with a TanStack frontend application and a Mock Commerce Ad Server with MCP (Model Context Protocol) support.
+A monorepo project with a TanStack frontend application and a mock MCP Ad Server to .
+
+![ZeroClick MCP Ad Server Demo](assets/ZeroClick-MCPAdSErver-demo.gif)
+
 
 ## Prerequisites
 
@@ -67,8 +70,8 @@ You can also verify the services manually:
 ```
 Aui-Zeroclick/
 ├── packages/
-│   ├── app-tanstack-assistant-ui/    # Frontend application
-│   └── mock-mcp-adserver/            # MCP server
+│   ├── frontend/    # Vite app(Tanstack) + Assistant UI
+│   └── mcp/         # MCP server
 └── package.json                       # Root package configuration
 ```
 
